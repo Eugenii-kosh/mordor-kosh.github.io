@@ -1,0 +1,130 @@
+header {
+    background: url('photos/mordor_header.jpg');
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    border: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header .marker {
+    position: fixed;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+header .head {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    width: 1300px;
+    margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	justify-content: space-between;
+}
+
+header .Name_site {
+    width: auto;
+    height: 150px;
+    margin: 5px;
+    padding-left: 20px;
+    background: url('photos/eye.png');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .Name_site h1 {
+    font-size: 80px;
+    font-family: 'Lucida Console' monospace;
+    font-weight: 400;
+    font-stretch: expanded;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic;
+    text-shadow: #750808 0 0 20px;
+    color: #33060a;
+}
+
+.head .Navigation {
+    width: 350px;
+    height: 150px;
+
+}
+
+.head .Navigation ul {
+    width: 200px;
+    font-size: 25px;
+}
+
+.head .Navigation ul li {
+    margin: 20px;
+    border: auto;
+    padding: auto;
+    list-style-type: none;
+    text-shadow: white 0 0 7px;
+}
+
+.head .Navigation ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: helvetica;
+    background-color: #421111;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.container1 {
+    background: url('photos/back_main.gif');
+    background-size: 180%;
+    width: 100%;
+}
+
+.container1 .content {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    width: 1500px;
+    margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+
+}
+
+.container1 .content .photo_content {
+    margin: 20px 10px 10px 2px;
+    padding: 15px;
+    box-shadow: 0 0 100px #ffffff;
+    background: #ffffff;
+    border-radius: 50%;
+    display: block;
+}
+
+.container1 .content .text {
+    width: 600px;
+    margin: 10px;
+    padding:10px;
+    border: auto;
+}
+
+.container1 .content .text p {
+    font-size: 20px;
+    font-family: 'Lucida Console' monospace;
+    text-shadow: 0 0 30px #ffffff;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border: auto;
+}

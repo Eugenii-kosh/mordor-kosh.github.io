@@ -1,0 +1,70 @@
+body {
+    background: url('../photos/fire-13.gif');
+    background-size: 130%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+    margin-left: auto;
+	margin-right: auto;
+
+}
+
+.content .orc {
+    order: 2;
+    margin-bottom: 100px;
+    background-color: rgba(212, 0, 0, 28%);
+    border-radius: 50%;
+    box-shadow: 0 0 180px #ff0000;
+}
+
+.content .text1 {
+    order: 1;
+    margin-top: 50px;
+}
+
+.content .text2 {
+    order: 3;
+    margin-top: 50px;
+}
+
+.content .te {
+    font-size: 25px;
+    font-family: serif;
+    text-shadow: #ff0000 0 0 20px;
+    color: #ff8585;
+    margin: 10px;
+    padding: 20px;
+}
+body .nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+body .nav p a {
+    font-size: 25px;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(255, 0, 0, 25%);
+    color:  white;
+    text-shadow: white 0 0 7px;
+    padding: 10px 20px;
+    border-radius: 23px;
+    box-shadow: 0 0 50px red;
+}
+
+body .nav p a:hover {
+  background-color: rgba(255, 0, 0, 55%);
+}
+
+body .nav p a:active {
+  background-color: rgba(255, 0, 0, 100%);
+}
